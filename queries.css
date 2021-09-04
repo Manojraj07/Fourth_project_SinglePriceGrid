@@ -1,0 +1,14 @@
+@media (max-width: 78em) {
+  html {
+    /* 9px/16px = 56.25% */
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 39em) {
+  .container {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

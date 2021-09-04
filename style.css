@@ -1,0 +1,119 @@
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.btn {
+  display: inline-block;
+  width: 24rem;
+  height: 5rem;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: 700;
+  background-color: hsl(71, 73%, 54%);
+  color: hsl(204, 43%, 93%);
+  margin-top: 3rem;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  color: black;
+  background-color: orange;
+}
+
+.list {
+  list-style: none;
+  color: hsla(203, 44%, 93%, 0.712);
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.container {
+  max-width: 65rem;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.6rem;
+  margin: 8rem auto;
+  border: 0 solid;
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+
+.features {
+  grid-column: 1 /-1;
+  padding: 4rem;
+  background-color: rgba(255, 255, 255, 0.904);
+  color: hsl(218, 22%, 67%);
+}
+
+.pricing {
+  padding: 4rem;
+  background-color: hsl(179, 62%, 43%);
+}
+
+.why-us {
+  padding: 4rem;
+  background-color: hsla(179, 80%, 40%, 0.993);
+}
+
+h1 {
+  margin-bottom: 1.6rem;
+  font-size: 2.6rem;
+  color: hsl(179, 62%, 43%);
+}
+
+h2 {
+  margin-bottom: 1.6rem;
+  color: hsl(204, 43%, 93%);
+  font-size: 2rem;
+}
+
+.guarantee {
+  margin-bottom: 1.2rem;
+  color: hsl(71, 73%, 54%);
+  font-weight: bold;
+}
+
+.pricing p {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  row-gap: 0.6rem;
+}
+
+.full-access {
+  color: hsl(204, 43%, 93%);
+  grid-column: 1 / -1;
+}
+
+.dollar {
+  font-size: 3rem;
+  color: hsl(204, 43%, 93%);
+  font-weight: 700;
+}
+
+.per-month {
+  color: hsla(203, 44%, 93%, 0.438);
+  margin-left: 1.8rem;
+  align-self: center;
+}
